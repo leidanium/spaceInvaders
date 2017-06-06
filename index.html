@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript">
+        localStorage.version="0.2";
+    </script>
+    <link rel="stylesheet" href="styles/styles.css" />
+
+
+
+    <!--  <script src="js/exJsCallBack.js"></script> -->
+</head>
+
+<body>
+    <div id="container">
+        <div id="backgroung">
+            <img src="img/game_background_by_theodenn-d6cfbh1.png" />
+        </div>
+        <div id="fleet">
+
+        </div>
+        <div id="bullet">
+
+        </div>
+        <div id="shipDiv">
+            <img id="ship" src="img/F5S4.png" />
+        </div>
+
+        <h1 id="loose">You loose !</h1>
+        <h1 id="win">You win !</h1>
+    </div>
+    <div id="floriture">
+        <h3 id="score">0</h3>
+        <div id="life">
+            <img id="life1" class="life slot1" src="img/heart.png" />
+            <img id="brokenLife1" class="slot1 life broken" src="img/broken-heart.png" />
+
+            <img id="life2" class="life slot2" src="img/heart.png" />
+            <img id="brokenLife2" class="slot2 life broken" src="img/broken-heart.png" />
+
+            <img id="life3" class="life slot3" src="img/heart.png" />
+            <img id="brokenLife3" class="life slot3 broken" src="img/broken-heart.png" />
+        </div>
+        <div id="playStop">
+            <img id="play" class="button" src="img/play.ico"/>
+            <img id="pause" class="button" src="img/pause.png" />
+        </div>
+    </div>
+
+
+    <script src="js/UI.class.js"></script>
+    <script src="js/Invaders.class.js"></script>
+    <script src="js/SpaceShip.class.js"></script>
+    <script src="js/Bullet.class.js"></script>
+    <script src="js/game.class.js"></script>
+    <script src="js/core.js"></script>
+</body>
+
+</html>
